@@ -1,0 +1,16 @@
+{
+  "name": "chapter03-npmmodules",
+  "version": "1.0.0",
+  "description": "Learn how to install node packages using NPM",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon.cmd index.js"
+  },
+  "author": "Phuc Nguyen",
+  "license": "ISC",
+  "dependencies": {
+    "date-fns": "^2.27.0",
+    "uuid": "^8.3.2"
+  }
+}
