@@ -1,0 +1,21 @@
+{
+  "name": "chapter09-mvc-rest-api",
+  "version": "1.0.0",
+  "description": "Build a REST API using MVC pattern",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "Phuc Nguyen",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "date-fns": "^2.28.0",
+    "express": "^4.17.3",
+    "uuid": "^8.3.2"
+  }
+}
