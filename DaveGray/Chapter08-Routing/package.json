@@ -1,0 +1,21 @@
+{
+  "name": "chapter08-routing",
+  "version": "1.0.0",
+  "description": "Use Routing in ExpressJS framework",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "Phuc Nguyen",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "date-fns": "^2.28.0",
+    "express": "^4.17.3",
+    "uuid": "^8.3.2"
+  }
+}
